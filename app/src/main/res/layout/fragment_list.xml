@@ -37,5 +37,26 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="@string/latte_title"/>
+        <TextView
+            android:id="@+id/espresso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Espresso"
+            android:padding="16dp"
+            android:textSize="18sp"
+            android:background="@android:color/darker_gray"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <TextView
+            android:id="@+id/mocha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mocha"
+            android:padding="16dp"
+            android:textSize="18sp"
+            android:background="@android:color/darker_gray"
+            android:clickable="true"
+            android:focusable="true"/>
     </LinearLayout>
 </ScrollView>
